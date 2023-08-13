@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+    <!--google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;700;900&family=Raleway:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+
+
+
+    <!-- css link -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- first show page . Its position is absolute and z-index is 3-->
+    <div class="first-show-page" id="first-show-page">
+        <button id="first-show-page-button">Visit the portfolio</button>
+    </div>
+
+
+
+
+
+
+    <!-- banner = first div that appear after 'first show page'. In this banner there will be my image in the left side and my details with a heading at the right side -->
+    <div class="banner" id="banner">
+
+        <!-- left side = my image -->
+        <div class="left-side-of-banner-image">
+
+            <img id="banner-image" class="banner-image"
+                src="https://i.ibb.co/qgBrGd3/332354727-1687576025010563-1490762382736575172-n.jpg" alt="">
+
+
+            <div id="banner-image-cover"></div>
+
+
+        </div>
+
+        <div class="bio">
+            <h1 id="banner-heading-name">Mashrafi Ahnam Shafin</h1>
+            <h2 id="designation">React.js Developer</h2>
+
+            <!-- button container -->
+            <div class="button_container">
+                <button class="bio_button bio-btn" id="bio_button">Bio</button>
+                <button class="skillset skillset-btn" id="skillset">Skillset</button>
+                <button class=" projects-btn" id="projects">Projects</button>
+                <button class="contact_information contact-information-btn" id="contact_information">Contact
+                    Information</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Here is all activities about Bio page. In this page, there will be an image at the right side and my bio deatils at the left side. bottom of the image, there will be navigation  buttons -->
+
+    <div id="bio-details">
+
+        <div id="bio-detail-description">
+
+            <article>
+                Passionate MERN Stack Developer specializing in React and Next.js, dedicated to crafting seamless
+                digital experiences. Committed to staying ahead in technology, I continuously explore new tools and
+                techniques. Seeking to leverage my skills, I aim to contribute creatively to innovative projects as part
+                of a dynamic team. With a strong problem-solving aptitude, I aspire to deliver high-quality solutions
+                that resonate with users and industry trends. My goal is to drive excellence and innovation in every
+                endeavor, fueled by an unwavering love for coding.
+            </article>
+        </div>
+
+
+
+
+        <div id="right-side-image-container">
+            <img id="bio-details-image" src="https://i.ibb.co/Mk2hJzx/1689281205814.jpg" alt="">
+            <div class="bio-details-btn-container">
+                <button class="banner-btn-on-bio-details banner-btn " id="banner-btn">Banner</button>
+                <button class="skillset-on-bio-details skillset skillset-btn">Skillset</button>
+                <button class="projects-on-bio-details projects-btn" id="projects">Projects</button>
+                <button class="contact-information-on-bio-details contact-information-btn"
+                    id="contact_information">Contact Information</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Now lets work about skillset. Here all my skill will be shown with progressbar. at the bottom there will be navigation button -->
+    <div class="skill-div" id="skill-div">
+
+        <!-- some text about my skill and navigation buttons section -->
+        <div class="some-text-about-skill">
+            <h1>About My Skillset</h1>
+            <p>
+                <span class="text-bold">
+                    Expertise:
+                </span> HTML, CSS, Bootstrap, JavaScript (+ES6), React.js, Redux, REST API, Next.js, Tailwind.
+            </p>
+            <p><span class="text-bold">
+                    Comfortable:
+                </span> Node.js, Express.js, NoSQL (MongoDB), Dev Tool & Debugging,Typescript, MySQL</p>
+            <p><span class="text-bold">
+                    Tools:
+                </span> Netlify, Vercel, Firebase, NPM, Git</p>
+            <p><span class="text-bold">
+                    Familiar:
+                </span> C programming</p>
+
+
+            <div class="btn-in-skill-section">
+                <button class="banner-btn-in-skill-section banner-btn">Banner</button>
+                <button class="bio-btn-in-skill-section bio-btn">Bio</button>
+                <button class="projects-btn-in-skill-section projects-btn">Projects</button>
+                <button class="contact-information-btn-in-skill-section contact-information-btn">Contact
+                    Information</button>
+            </div>
+
+
+        </div>
+
+
+        <!-- skill showing section -->
+        <div class="right-side-skill-showing-section">
+            <!-- div for html -->
+            <div class="html-div">
+                <span>HTML</span> <span class="progress-bar"> <span id="progress-fill-html">90%</span> </span>
+            </div>
+
+
+
+            <!-- div for css -->
+            <div class="html-div">
+                <span>CSS</span> <span class="progress-bar"> <span id="progress-fill-css"></span> </span>
+            </div>
+
+
+            <!-- div for javascript -->
+            <div class="html-div">
+                <span>Javascript</span> <span class="progress-bar"> <span id="progress-fill-javascript"></span> </span>
+            </div>
+
+
+
+            <!-- div for Bootstsrap -->
+            <div class="html-div">
+                <span>Bootstrap</span> <span class="progress-bar"> <span id="progress-fill-bootstrap"></span> </span>
+            </div>
+
+
+
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>Tailwind</span> <span class="progress-bar"> <span id="progress-fill-tailwind"></span> </span>
+            </div>
+
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>React.js</span> <span class="progress-bar"> <span id="progress-fill-react"></span> </span>
+            </div>
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>Next.js</span> <span class="progress-bar"> <span id="progress-fill-next"></span> </span>
+            </div>
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>Node.js</span> <span class="progress-bar"> <span id="progress-fill-node"></span> </span>
+            </div>
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>Express.js</span> <span class="progress-bar"> <span id="progress-fill-express"></span> </span>
+            </div>
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>MongoDB</span> <span class="progress-bar"> <span id="progress-fill-mongodb"></span> </span>
+            </div>
+            <!-- div for html -->
+            <div class="html-div">
+                <span>Redux</span> <span class="progress-bar"> <span id="progress-fill-redux"></span> </span>
+            </div>
+
+            <!-- div for html -->
+            <div class="html-div">
+                <span>Typescript</span> <span class="progress-bar"> <span id="progress-fill-typescript"></span> </span>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- Lets work with projects section. Here all of my projects wil be shown side by side . There might be a scroll bar at the bottom to slide left or right if it is needed to show -->
+    <div class="project-div" id="project-div">
+        <!-- <h1 class="project-div-heading">My projects</h1> -->
+
+        <div class="projects-container">
+
+            <!-- first project -->
+            <div class="card">
+                <img src="https://i.ibb.co/2M3XtXB/one.png" alt="Card Image">
+                <h3>Zen Dojo</h3>
+                <p> This is a martial school management website where instructors offer some training opportunities and
+                    students
+                    enroll these opportunities under admin monitoring. Payment process is implemented using stripe
+                    payment processing
+                    system. User authentication implemented using firebase. Admin-mail: admin@gmail.com. Password:
+                    1Mrbdn@#</p>
+                <div class="button-holder-in-card">
+                    <a class="live-site" href="live-side-link">Live Site</a>
+                    <a class="client-side" href="client-side-repo-link">Client-side Repository</a>
+                    <a class="server-side" href="server-side-repo-link">Server-side Repository</a>
+                </div>
+            </div>
+
+
+
+
+            <!-- second projects -->
+            <div class="card">
+                <img src="https://i.ibb.co/VLK63q7/two.png" alt="Card Image">
+                <h3>Carz</h3>
+                <p> This website is a toy marketplace. Varieties of toys are available with their detailed information.
+                    It is a MERN
+                    project. User authentication implemented using firebase. Express.js is used as a Node.js framework
+                </p>
+                <div class="button-holder-in-card">
+                    <a class="live-site" href="live-side-link">Live Site</a>
+                    <a class="client-side" href="client-side-repo-link">Client-side Repository</a>
+                    <a class="server-side" href="server-side-repo-link">Server-side Repository</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="card">
+                <img src="https://i.ibb.co/s5Pc064/three.png" alt="Card Image">
+                <h3>Food Fest</h3>
+                <p> This website is an overall scenario of Bangladeshi Food Culture with the collection of Bangladeshi
+                    Chefs and
+                    their detailed information. This is a MERN project. Express.js is used for creating API. Firebase is
+                    used for authentication</p>
+                <div class="button-holder-in-card">
+                    <a class="live-site" href="live-side-link">Live Site</a>
+                    <a class="client-side" href="client-side-repo-link">Client-side Repository</a>
+                    <a class="server-side" href="server-side-repo-link">Server-side Repository</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="navigation-btn">
+            <div>
+                <button class="project-div-banner-btn">Github</button>
+                <button class="project-div-contact-information-btn">Download Resume</button>
+            </div>
+
+
+
+
+
+
+
+            <div>
+                <button class="bio-btn project-div-bio-btn">Bio</button>
+                <button class="banner-btn project-div-banner-btn">Banner</button>
+                <button class="skillset-btn project-div-skillset-btn">Skillset</button>
+                <button class="contact-information-btn project-div-contact-information-btn">Contact Information</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- lets work with contact information -->
+    <div class="contact-information-div" id="contact-information-div">
+
+        <form>
+        
+            
+            <p>Email: shafinahnam89@gmail.com</p>
+            
+            <p>Phone Number: 01620674384</p>
+            
+            <p>LinkedIn: https://www.linkedin.com/in/mashrafi-ahnam/</p>
+            <label for="newMessage">Send me message:</label>
+            <textarea id="newMessage" name="newMessage" rows="4" required></textarea>
+            <button type="submit">send</button>
+        </form>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
